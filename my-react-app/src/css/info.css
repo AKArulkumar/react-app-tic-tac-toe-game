@@ -1,0 +1,31 @@
+/* Filename - css/info.css */
+
+.info {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: #333; 
+    background-color: #f7f7f7; 
+    padding: 1.5rem; /* Add padding for better spacing */
+    border-radius: 15px; /* Add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add box shadow for depth */
+}
+
+.player {
+    border: 2px solid #34c759; /* Change border color to green */
+    border-radius: 10px; /* Increase border radius */
+    padding: 0.7rem 1.2rem; /* Adjust padding */
+    font-size: 1.7rem; /* Increase font size */
+    font-weight: bold;
+    text-transform: uppercase;
+    background-color: #fff; /* Add white background color */
+    transition: background-color 0.3s ease; /* Add transition effect */
+}
+
+/* Add hover effect for player info */
+.player:hover {
+    background-color: #34c759; /* Change background color on hover to green */
+    color: #fff; /* Change text color on hover to white */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Add box shadow on hover */
+}
